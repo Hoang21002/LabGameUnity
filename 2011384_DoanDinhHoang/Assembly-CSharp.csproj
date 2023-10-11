@@ -57,6 +57,10 @@
     <Analyzer Include="D:\BaiLab-2023-2024\Game nâng cao\2022.3.9f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\PlayerAnimation.cs" />
+    <Compile Include="Assets\Scripts\LookX.cs" />
+    <Compile Include="Assets\Scripts\PlayerGui.cs" />
+    <Compile Include="Assets\Scripts\LookY.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
   </ItemGroup>
   <ItemGroup>
