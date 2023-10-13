@@ -4,19 +4,43 @@ using UnityEngine;
 
 public class LookX : MonoBehaviour
 {
-    public float _mouseX = 0.0f;
+    public float rotationSpeed = 100.0f;
+    public float sensitivity = 5.0f;
 
-    public float _sensitivity = 5.0f;
-    // Start is called before the first frame update
-
-    // Update is called once per frame
     void Update()
     {
-        _mouseX = Input.GetAxis("Mouse X");
+        RotateCamera();
+        lookX();
+    }
+
+    void RotateCamera()
+    {
+        float horizontal = 0.0f;
+        float vertical = 0.0f;
+
+       /* if (Input.GetKey(KeyCode.U)) vertical = 1.0f;
+        else if (Input.GetKey(KeyCode.J)) vertical = -1.0f;*/
+
+        if (Input.GetKey(KeyCode.H)) horizontal = -1.0f;
+        else if (Input.GetKey(KeyCode.K)) horizontal = 1.0f;
+
+        Vector3 currentRotation = transform.localRotation.eulerAngles;
+
+        currentRotation.x += vertical * rotationSpeed * Time.deltaTime;
+        currentRotation.y += horizontal * rotationSpeed * Time.deltaTime;
+
+        currentRotation.x = Mathf.Clamp(currentRotation.x, -90f, 90f);
+
+        transform.localRotation = Quaternion.Euler(currentRotation);
+    }
+
+    void lookX()
+    {
+        float mouseX = Input.GetAxis("Mouse X");
 
         Vector3 rot = transform.localEulerAngles;
 
-        rot.y += _mouseX * _sensitivity;
-        transform.localEulerAngles = rot;  
+        rot.y += mouseX * sensitivity;
+        transform.localEulerAngles = rot;
     }
 }

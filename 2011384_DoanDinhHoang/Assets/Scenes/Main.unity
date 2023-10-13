@@ -541,8 +541,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba997e423736e864ea0000e9f0091889, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _mouseY: 0
-  _sensitivity: 5
+  rotationSpeed: 100
+  sensitivity: 5
+  mouseY: 0
+  sensitivityY: 2
 --- !u!1 &1682678664
 GameObject:
   m_ObjectHideFlags: 0
@@ -699,8 +701,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98685e1520c55c147996ce711a28d6c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _mouseX: 0
-  _sensitivity: 5
+  rotationSpeed: 100
+  sensitivity: 5
 --- !u!114 &1682678672
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -58,6 +58,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\PlayerAnimation.cs" />
+    <Compile Include="Assets\Scripts\AimPoint.cs" />
     <Compile Include="Assets\Scripts\LookX.cs" />
     <Compile Include="Assets\Scripts\PlayerGui.cs" />
     <Compile Include="Assets\Scripts\LookY.cs" />
