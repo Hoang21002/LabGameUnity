@@ -67,6 +67,7 @@
     <Compile Include="Assets\Scripts\PlayerGui.cs" />
     <Compile Include="Assets\Scripts\EnemyAnimation.cs" />
     <Compile Include="Assets\Scripts\LookY.cs" />
+    <Compile Include="Assets\Scripts\MainGUI.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -359,6 +359,7 @@
 "Assets/Scripts/Health.cs"
 "Assets/Scripts/LookX.cs"
 "Assets/Scripts/LookY.cs"
+"Assets/Scripts/MainGUI.cs"
 "Assets/Scripts/PlayerAnimation.cs"
 "Assets/Scripts/PlayerGui.cs"
 "Assets/Scripts/PlayerMovement.cs"
