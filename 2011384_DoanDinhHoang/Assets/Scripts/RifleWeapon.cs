@@ -19,7 +19,7 @@ public class RifleWeapon : MonoBehaviour
 
         if (Input.GetButtonDown("Fire1"))
         {
-            Screen.lockCursor = true;
+            //Screen.lockCursor = true;
 
             Ray mouseRay = Camera.main.ViewportPointToRay(new Vector3(0.5f, 0.5f, 0));
             RaycastHit hitInfo;

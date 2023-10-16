@@ -64,6 +64,7 @@
     <Compile Include="Assets\Scripts\AimPoint.cs" />
     <Compile Include="Assets\Scripts\LookX.cs" />
     <Compile Include="Assets\Scripts\SettingMenu.cs" />
+    <Compile Include="Assets\Scripts\PauseMenu.cs" />
     <Compile Include="Assets\Scripts\Health.cs" />
     <Compile Include="Assets\Scripts\PlayerGui.cs" />
     <Compile Include="Assets\Scripts\EnemyAnimation.cs" />
