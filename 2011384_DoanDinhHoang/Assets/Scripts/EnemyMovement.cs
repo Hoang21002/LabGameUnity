@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -6,7 +6,7 @@ public class EnemyMovement : MonoBehaviour
 {
     CharacterController _controller;
     Transform _player;
-    public float _moveSpeed = 5.0f;
+    public float _moveSpeed = 8.0f;
     public float _gravity = 2.0f;
     float _yVelocity = 0.0f;
     void Start()
@@ -34,7 +34,7 @@ public class EnemyMovement : MonoBehaviour
 
         transform.rotation = Quaternion.LookRotation(direction);
 
-        _controller.Move(velocity *  Time.deltaTime);
+        _controller.Move(velocity * Time.deltaTime);
 
 
         direction.Normalize();

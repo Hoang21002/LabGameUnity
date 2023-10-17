@@ -73,6 +73,11 @@
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Assets\EmaceArt\Slavic World Free\Plugin\Grass.shader" />
+    <None Include="Assets\Assets\EmaceArt\Slavic World Free\URP_Support\URP Info.txt" />
+    <None Include="Assets\Assets\EmaceArt\Slavic World Free\Thanks and checkout this\Info.txt" />
+  </ItemGroup>
+  <ItemGroup>
     <Reference Include="UnityEngine">
       <HintPath>D:\BaiLab-2023-2024\Game nâng cao\2022.3.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>

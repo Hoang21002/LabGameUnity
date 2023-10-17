@@ -351,7 +351,15 @@
         343,
         344,
         345,
-        346
+        346,
+        347,
+        348,
+        349,
+        350,
+        351,
+        352,
+        353,
+        354
       ],
       "OverwriteOutputs": false,
       "DebugActionIndex": 0
@@ -894,12 +902,6 @@
         284,
         285,
         286,
-        289,
-        290,
-        291,
-        292,
-        293,
-        294,
         295,
         296,
         297,
@@ -949,7 +951,15 @@
         341,
         342,
         343,
-        344
+        344,
+        345,
+        346,
+        347,
+        348,
+        349,
+        350,
+        351,
+        352
       ],
       "OverwriteOutputs": false,
       "DebugActionIndex": 6
@@ -20114,6 +20124,623 @@
       "DebugActionIndex": 288
     },
     {
+      "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.UnityAdditionalFile.txt",
+      "DisplayName": "Writing Assembly-CSharp-Editor.UnityAdditionalFile.txt",
+      "ActionType": "WriteFile",
+      "PayloadOffset": 1504760,
+      "PayloadLength": 69,
+      "PayloadDebugContentSnippet": "D:\\BaiLab-2023-2024\\Game nâng",
+      "Inputs": [],
+      "Outputs": [
+        "Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.UnityAdditionalFile.txt"
+      ],
+      "DebugActionIndex": 289
+    },
+    {
+      "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.rsp",
+      "DisplayName": "Writing Assembly-CSharp-Editor.rsp",
+      "ActionType": "WriteFile",
+      "PayloadOffset": 1504922,
+      "PayloadLength": 35432,
+      "PayloadDebugContentSnippet": "-target:library\r\n-out:\"Library",
+      "Inputs": [],
+      "Outputs": [
+        "Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.rsp"
+      ],
+      "DebugActionIndex": 290
+    },
+    {
+      "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.rsp2",
+      "DisplayName": "Writing Assembly-CSharp-Editor.rsp2",
+      "ActionType": "WriteFile",
+      "PayloadOffset": 1540448,
+      "PayloadLength": 0,
+      "PayloadDebugContentSnippet": "",
+      "Inputs": [],
+      "Outputs": [
+        "Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.rsp2"
+      ],
+      "DebugActionIndex": 291
+    },
+    {
+      "Annotation": "Csc Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.dll (+2 others)",
+      "DisplayName": "Csc Assembly-CSharp-Editor",
+      "Action": "\"D:\\BaiLab-2023-2024\\Game nâng cao\\2022.3.9f1\\Editor\\Data\\NetCoreRuntime\\dotnet.exe\" exec \"D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/DotNetSdkRoslyn/csc.dll\" /nostdlib /noconfig /shared \"@Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.rsp\" \"@Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.rsp2\"",
+      "Inputs": [
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/Managed/UnityEditor.Graphs.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/Managed/UnityEngine/UnityEditor.DiagnosticsModule.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/Managed/UnityEngine/UnityEditor.EditorToolbarModule.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/Managed/UnityEngine/UnityEditor.GraphViewModule.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/Managed/UnityEngine/UnityEditor.PresetsUIModule.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/Managed/UnityEngine/UnityEditor.QuickSearchModule.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/Managed/UnityEngine/UnityEditor.SceneTemplateModule.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/Managed/UnityEngine/UnityEditor.SceneViewModule.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/Managed/UnityEngine/UnityEditor.TextCoreFontEngineModule.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/Managed/UnityEngine/UnityEditor.TextCoreTextEngineModule.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/Managed/UnityEngine/UnityEditor.UIBuilderModule.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/Managed/UnityEngine/UnityEditor.UIElementsModule.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/Managed/UnityEngine/UnityEditor.UIElementsSamplesModule.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/Managed/UnityEngine/UnityEditor.UnityConnectModule.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/Managed/UnityEngine/UnityEditor.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.ARModule.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.AndroidJNIModule.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.AnimationModule.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.AudioModule.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClothModule.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterInputModule.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.ContentLoadModule.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.DSPGraphModule.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.DirectorModule.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.GIModule.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.GameCenterModule.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.GridModule.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.HotReloadModule.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.IMGUIModule.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputLegacyModule.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputModule.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.LocalizationModule.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.NVIDIAModule.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.Physics2DModule.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.PhysicsModule.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.ProfilerModule.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.PropertiesModule.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.StreamingModule.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.SubstanceModule.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.SubsystemsModule.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.TLSModule.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainModule.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextCoreFontEngineModule.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextCoreTextEngineModule.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.TilemapModule.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsModule.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIModule.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.UmbraModule.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsCommonModule.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityCurlModule.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityTestProtocolModule.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.VFXModule.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.VRModule.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.VehiclesModule.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.VideoModule.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.VirtualTexturingModule.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/Microsoft.Win32.Primitives.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.AppContext.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Buffers.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Collections.Concurrent.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Collections.NonGeneric.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Collections.Specialized.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Collections.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ComponentModel.Annotations.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ComponentModel.EventBasedAsync.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ComponentModel.Primitives.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ComponentModel.TypeConverter.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ComponentModel.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Console.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Data.Common.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.Contracts.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.Debug.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.FileVersionInfo.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.Process.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.StackTrace.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.TextWriterTraceListener.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.Tools.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.TraceSource.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Drawing.Primitives.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Dynamic.Runtime.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Globalization.Calendars.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Globalization.Extensions.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Globalization.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.Compression.ZipFile.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.FileSystem.Primitives.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.FileSystem.Watcher.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.FileSystem.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.FileSystem.DriveInfo.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.IsolatedStorage.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.MemoryMappedFiles.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.Pipes.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.UnmanagedMemoryStream.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Linq.Expressions.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Linq.Parallel.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Linq.Queryable.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Linq.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Memory.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.Http.Rtc.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.NameResolution.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.NetworkInformation.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.Ping.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.Primitives.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.Requests.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.Security.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.Sockets.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.WebHeaderCollection.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.WebSockets.Client.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.WebSockets.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ObjectModel.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Reflection.DispatchProxy.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Reflection.Emit.ILGeneration.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Reflection.Emit.Lightweight.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Reflection.Emit.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Reflection.Extensions.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Reflection.Primitives.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Reflection.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Resources.Reader.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Resources.ResourceManager.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Resources.Writer.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.CompilerServices.VisualC.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.Extensions.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.Handles.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.InteropServices.RuntimeInformation.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.InteropServices.WindowsRuntime.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.InteropServices.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.Numerics.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.Serialization.Formatters.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.Serialization.Json.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.Serialization.Primitives.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.Serialization.Xml.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.Claims.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.Cryptography.Algorithms.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.Cryptography.Csp.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.Cryptography.Encoding.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.Cryptography.Primitives.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.Cryptography.X509Certificates.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.Principal.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.SecureString.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ServiceModel.Duplex.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ServiceModel.Http.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ServiceModel.NetTcp.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ServiceModel.Primitives.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ServiceModel.Security.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Text.Encoding.Extensions.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Text.Encoding.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Text.RegularExpressions.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.Overlapped.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.Tasks.Extensions.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.Tasks.Parallel.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.Tasks.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.Thread.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.ThreadPool.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.Timer.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ValueTuple.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Xml.ReaderWriter.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Xml.XDocument.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Xml.XPath.XDocument.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Xml.XPath.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Xml.XmlDocument.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Xml.XmlSerializer.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/netstandard.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Microsoft.CSharp.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.ComponentModel.Composition.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Core.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Data.DataSetExtensions.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Data.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Drawing.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.IO.Compression.FileSystem.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.IO.Compression.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Net.Http.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Numerics.Vectors.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Numerics.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Runtime.Serialization.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Transactions.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Xml.Linq.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Xml.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/mscorlib.dll",
+        "Library/PackageCache/com.unity.collab-proxy@2.0.7/Lib/Editor/PlasticSCM/log4netPlastic.dll",
+        "Library/PackageCache/com.unity.collab-proxy@2.0.7/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll",
+        "Library/PackageCache/com.unity.collab-proxy@2.0.7/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll",
+        "Library/PackageCache/com.unity.collab-proxy@2.0.7/Lib/Editor/PlasticSCM/unityplastic.dll",
+        "Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll",
+        "Library/PackageCache/com.unity.testtools.codecoverage@1.2.4/lib/ReportGenerator/ReportGeneratorMerged.dll",
+        "Library/PackageCache/com.unity.visualscripting@1.9.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll",
+        "Library/PackageCache/com.unity.visualscripting@1.9.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll",
+        "Library/PackageCache/com.unity.visualscripting@1.9.0/Editor/VisualScripting.Core/EditorAssetResources/Unity.VisualScripting.TextureAssets.dll",
+        "Library/PackageCache/com.unity.visualscripting@1.9.0/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll",
+        "Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.ref.dll",
+        "Library/Bee/artifacts/1900b0aE.dag/Unity.EditorCoroutines.Editor.ref.dll",
+        "Library/Bee/artifacts/1900b0aE.dag/Unity.Performance.Profile-Analyzer.Editor.ref.dll",
+        "Library/Bee/artifacts/1900b0aE.dag/Unity.PlasticSCM.Editor.ref.dll",
+        "Library/Bee/artifacts/1900b0aE.dag/Unity.Rider.Editor.ref.dll",
+        "Library/Bee/artifacts/1900b0aE.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.ref.dll",
+        "Library/Bee/artifacts/1900b0aE.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.ref.dll",
+        "Library/Bee/artifacts/1900b0aE.dag/Unity.TestTools.CodeCoverage.Editor.ref.dll",
+        "Library/Bee/artifacts/1900b0aE.dag/Unity.TextMeshPro.Editor.ref.dll",
+        "Library/Bee/artifacts/1900b0aE.dag/Unity.TextMeshPro.ref.dll",
+        "Library/Bee/artifacts/1900b0aE.dag/Unity.Timeline.Editor.ref.dll",
+        "Library/Bee/artifacts/1900b0aE.dag/Unity.Timeline.ref.dll",
+        "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Core.Editor.ref.dll",
+        "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Core.ref.dll",
+        "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Flow.Editor.ref.dll",
+        "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Flow.ref.dll",
+        "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.SettingsProvider.Editor.ref.dll",
+        "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Shared.Editor.ref.dll",
+        "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.State.Editor.ref.dll",
+        "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.State.ref.dll",
+        "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualStudio.Editor.ref.dll",
+        "Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.ref.dll",
+        "Library/Bee/artifacts/1900b0aE.dag/UnityEditor.TestRunner.ref.dll",
+        "Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll",
+        "Library/Bee/artifacts/1900b0aE.dag/UnityEngine.TestRunner.ref.dll",
+        "Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll",
+        "Assets/Assets/EmaceArt/Slavic World Free/Editor/WelcomeWindow.cs",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll",
+        "Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.rsp"
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.dll",
+        "Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.pdb",
+        "Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.ref.dll"
+      ],
+      "ToBuildDependencies": [
+        4,
+        97,
+        109,
+        117,
+        125,
+        132,
+        138,
+        144,
+        156,
+        162,
+        168,
+        174,
+        180,
+        186,
+        192,
+        205,
+        214,
+        221,
+        228,
+        235,
+        241,
+        249,
+        255,
+        263,
+        269,
+        276,
+        289,
+        290,
+        291,
+        294
+      ],
+      "ToUseDependencies": [
+        289,
+        291
+      ],
+      "FrontendResponseFiles": [
+        "Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.rsp"
+      ],
+      "AllowUnexpectedOutput": true,
+      "Env": [
+        {
+          "Key": "DOTNET_MULTILEVEL_LOOKUP",
+          "Value": "0"
+        }
+      ],
+      "DebugActionIndex": 292
+    },
+    {
+      "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.dll.mvfrm.rsp",
+      "DisplayName": "Writing Assembly-CSharp-Editor.dll.mvfrm.rsp",
+      "ActionType": "WriteFile",
+      "PayloadOffset": 1540551,
+      "PayloadLength": 10320,
+      "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
+      "Inputs": [],
+      "Outputs": [
+        "Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.dll.mvfrm.rsp"
+      ],
+      "DebugActionIndex": 293
+    },
+    {
+      "Annotation": "MovedFromExtractorCombine Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.dll.mvfrm",
+      "DisplayName": "MovedFromExtractorCombine Assembly-CSharp-Editor.dll",
+      "Action": "\"D:\\BaiLab-2023-2024\\Game nâng cao\\2022.3.9f1\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe\" \"Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.dll.mvfrm\" \"@Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.dll.mvfrm.rsp\"",
+      "Inputs": [
+        "Library/Bee/artifacts/mvdfrm/Unity.EditorCoroutines.Editor.ref.dll_34ED10A34098B2DB.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.Performance.Profile-Analyzer.Editor.ref.dll_65A192712782EB2B.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.PlasticSCM.Editor.ref.dll_257AEB342BE77856.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.Rider.Editor.ref.dll_9B5591808ABA37AF.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.ref.dll_D3B9364D6FB03093.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.ref.dll_E668CD773429A040.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.TestTools.CodeCoverage.Editor.ref.dll_F09CF4826CE11CD9.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.TextMeshPro.Editor.ref.dll_159E061D77A10B86.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.TextMeshPro.ref.dll_84A4293DBDD182DB.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.Timeline.Editor.ref.dll_0D3D3C0B73557612.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.Timeline.ref.dll_621CDDF9C514DF8F.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.VSCode.Editor.ref.dll_3628369EB48E4C19.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.Core.Editor.ref.dll_EDC8690F57C5BDFD.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.Core.ref.dll_D75DF4EA1AFE54F4.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.Flow.Editor.ref.dll_6AF951BE66A4493E.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.Flow.ref.dll_1E6ED5409D07C9A3.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.SettingsProvider.Editor.ref.dll_A1A44354E0B583A8.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.Shared.Editor.ref.dll_9669F6EBFF6DFFB7.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.State.Editor.ref.dll_E03858E727F23F6F.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.State.ref.dll_D91762B7076BE462.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.VisualStudio.Editor.ref.dll_3A975DBA53ABA4AD.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.TestRunner.ref.dll_193EC4CE382CBFB3.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.UI.ref.dll_4C98D3F7040CD4F5.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.TestRunner.ref.dll_E55D0F7C63F01D9E.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.UI.ref.dll_08FEAA520A2EFD60.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.Graphs.dll_9D0D7A941A73296B.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.CoreModule.dll_730B4D5517841839.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.DeviceSimulatorModule.dll_788191AFE10FD9D8.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.DiagnosticsModule.dll_2A5F581FFE91D626.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.EditorToolbarModule.dll_C9407136479F3CA8.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.GraphViewModule.dll_C71CC4EAAB1AB13D.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.PresetsUIModule.dll_8282FDCCAD730942.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.QuickSearchModule.dll_B56ED92D5768D27F.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.SceneTemplateModule.dll_ECDFE1F4468BE6E0.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.SceneViewModule.dll_05CCA7F2A03D7E4B.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.TextCoreFontEngineModule.dll_086FC2353EB17597.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.TextCoreTextEngineModule.dll_5057F8A6CE352EB5.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.UIBuilderModule.dll_1BA572071DD32A71.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.UIElementsModule.dll_93D1EE8BF2E8A6D5.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.UIElementsSamplesModule.dll_0626DB89D2201EE8.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.UnityConnectModule.dll_BCA14FB99243E36F.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.dll_A88C08E47C96BC0C.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.AIModule.dll_A02C9E4BA101996D.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.ARModule.dll_599F634EFE1EF836.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.AccessibilityModule.dll_1F854D8B47020E7D.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.AndroidJNIModule.dll_121AD75F3C0815AB.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.AnimationModule.dll_95A24113857785E3.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.AssetBundleModule.dll_F9580C1EB9CF8771.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.AudioModule.dll_CC0FD5309CD43615.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.ClothModule.dll_32F8322B76F114F9.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.ClusterInputModule.dll_3C3DC4CF43CBB635.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.ClusterRendererModule.dll_7E2E542150CAE75C.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.ContentLoadModule.dll_926E655F88522F5E.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.CoreModule.dll_962C20A7BF898364.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.CrashReportingModule.dll_8B072D457D1E1D7C.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.DSPGraphModule.dll_B6816FA85A085BA2.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.DirectorModule.dll_B1300E3EE7A78A81.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.GIModule.dll_3868E7593CB08187.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.GameCenterModule.dll_3C68217A0249069C.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.GridModule.dll_739D3C95D7DE195B.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.HotReloadModule.dll_16EAFF1960AAA165.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.IMGUIModule.dll_046F74976305C9F6.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.ImageConversionModule.dll_EA2051D1D2EF9F50.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.InputLegacyModule.dll_8A9D273D51C13D62.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.InputModule.dll_32859CE1130C5AB9.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.JSONSerializeModule.dll_7F9CD6C7463D6F07.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.LocalizationModule.dll_7A8A8F21DB47A92E.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.NVIDIAModule.dll_27CE54DC03AACC50.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.ParticleSystemModule.dll_DE197691EB2FA90A.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.PerformanceReportingModule.dll_E257E5A82E357C23.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.Physics2DModule.dll_E248310426747D78.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.PhysicsModule.dll_52413275D555A586.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.ProfilerModule.dll_E37647758101118E.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.PropertiesModule.dll_69A360B875346AD8.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll_30B1B9F16C18DE41.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.ScreenCaptureModule.dll_9984844C5AA99B69.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.SharedInternalsModule.dll_6E3190A74A1D9AA0.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.SpriteMaskModule.dll_2594940A23B89C16.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.SpriteShapeModule.dll_12B939796F71BF7B.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.StreamingModule.dll_4A372E63D4FF3D21.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.SubstanceModule.dll_26E242AD20523B2F.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.SubsystemsModule.dll_9041FA6BF2008429.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.TLSModule.dll_B94319FEED3A24DA.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.TerrainModule.dll_6C87ADE4AB13EE74.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.TerrainPhysicsModule.dll_DE941F650472A397.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.TextCoreFontEngineModule.dll_86CF3D8851AF3462.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.TextCoreTextEngineModule.dll_CEB773F9E132ED80.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.TextRenderingModule.dll_C2C3F65711E11B5E.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.TilemapModule.dll_0B841565C2D0CF7D.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.UIElementsModule.dll_94805BD3F52CC020.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.UIModule.dll_9BA03C78FD489F19.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.UmbraModule.dll_46E4814929FAE188.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.UnityAnalyticsCommonModule.dll_7D96A2EC481E1A81.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.UnityAnalyticsModule.dll_FDB8E75B9756FB06.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.UnityConnectModule.dll_AA00D3C88CCBE41A.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.UnityCurlModule.dll_C8BEE244F58B77D0.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.UnityTestProtocolModule.dll_C1E9917C2C1B743E.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.UnityWebRequestAssetBundleModule.dll_1DB957D34E18F257.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.UnityWebRequestAudioModule.dll_5A543986B4A046BB.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.UnityWebRequestModule.dll_FBBF597BDDE439CF.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.UnityWebRequestTextureModule.dll_1BDFBCD47DA3D1F0.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.UnityWebRequestWWWModule.dll_9979B955D0F2A9EC.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.VFXModule.dll_3A21B26DC3A78E47.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.VRModule.dll_EE7262FE9F032491.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.VehiclesModule.dll_28F307BE61D15A1C.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.VideoModule.dll_F119599B5F6651BA.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.VirtualTexturingModule.dll_8A3787B1FF1C3902.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.WindModule.dll_0C7AFBD050C001CD.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.XRModule.dll_21312603283D71EF.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.dll_DB304FBCDB0A48F1.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.WebGL.Extensions.dll_5A630B3045289887.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.WindowsStandalone.Extensions.dll_8C909506879DCDF7.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.Plastic.Antlr3.Runtime.dll_DBC5D081C4D6AF26.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.Plastic.Newtonsoft.Json.dll_B06B77423C8110AF.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.IonicZip.dll_BE5647D59BA90757.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.YamlDotNet.dll_73B4528AAC4BDD55.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.TextureAssets.dll_0AD27BDE6D193B4D.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.Antlr3.Runtime.dll_2521796BDD14ED74.mvfrm",
+        "D:/BaiLab-2023-2024/Game nâng cao/2022.3.9f1/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe",
+        "Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.dll.mvfrm.rsp"
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.dll.mvfrm"
+      ],
+      "ToBuildDependencies": [
+        5,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        110,
+        111,
+        118,
+        119,
+        126,
+        199,
+        207,
+        208,
+        215,
+        222,
+        229,
+        242,
+        243,
+        256,
+        257,
+        270,
+        277,
+        278,
+        279,
+        280,
+        281,
+        282,
+        283,
+        284,
+        285,
+        286,
+        293
+      ],
+      "AllowUnexpectedOutput": true,
+      "Env": [],
+      "DebugActionIndex": 294
+    },
+    {
       "Annotation": "CopyFiles Library/ScriptAssemblies/UnityEngine.TestRunner.dll",
       "DisplayName": "Copying UnityEngine.TestRunner.dll",
       "ActionType": "CopyFiles",
@@ -20126,7 +20753,7 @@
       "ToBuildDependencies": [
         4
       ],
-      "DebugActionIndex": 289
+      "DebugActionIndex": 295
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/UnityEngine.TestRunner.pdb",
@@ -20141,7 +20768,7 @@
       "ToBuildDependencies": [
         4
       ],
-      "DebugActionIndex": 290
+      "DebugActionIndex": 296
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/UnityEditor.TestRunner.dll",
@@ -20156,7 +20783,7 @@
       "ToBuildDependencies": [
         109
       ],
-      "DebugActionIndex": 291
+      "DebugActionIndex": 297
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/UnityEditor.TestRunner.pdb",
@@ -20171,7 +20798,7 @@
       "ToBuildDependencies": [
         109
       ],
-      "DebugActionIndex": 292
+      "DebugActionIndex": 298
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.Rider.Editor.dll",
@@ -20186,7 +20813,7 @@
       "ToBuildDependencies": [
         144
       ],
-      "DebugActionIndex": 293
+      "DebugActionIndex": 299
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.Rider.Editor.pdb",
@@ -20201,7 +20828,7 @@
       "ToBuildDependencies": [
         144
       ],
-      "DebugActionIndex": 294
+      "DebugActionIndex": 300
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.VSCode.Editor.dll",
@@ -20216,7 +20843,7 @@
       "ToBuildDependencies": [
         180
       ],
-      "DebugActionIndex": 295
+      "DebugActionIndex": 301
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.VSCode.Editor.pdb",
@@ -20231,7 +20858,7 @@
       "ToBuildDependencies": [
         180
       ],
-      "DebugActionIndex": 296
+      "DebugActionIndex": 302
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll",
@@ -20246,7 +20873,7 @@
       "ToBuildDependencies": [
         192
       ],
-      "DebugActionIndex": 297
+      "DebugActionIndex": 303
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.VisualStudio.Editor.pdb",
@@ -20261,7 +20888,7 @@
       "ToBuildDependencies": [
         192
       ],
-      "DebugActionIndex": 298
+      "DebugActionIndex": 304
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/UnityEngine.UI.dll",
@@ -20276,7 +20903,7 @@
       "ToBuildDependencies": [
         97
       ],
-      "DebugActionIndex": 299
+      "DebugActionIndex": 305
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/UnityEngine.UI.pdb",
@@ -20291,7 +20918,7 @@
       "ToBuildDependencies": [
         97
       ],
-      "DebugActionIndex": 300
+      "DebugActionIndex": 306
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/UnityEditor.UI.dll",
@@ -20306,7 +20933,7 @@
       "ToBuildDependencies": [
         117
       ],
-      "DebugActionIndex": 301
+      "DebugActionIndex": 307
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/UnityEditor.UI.pdb",
@@ -20321,7 +20948,7 @@
       "ToBuildDependencies": [
         117
       ],
-      "DebugActionIndex": 302
+      "DebugActionIndex": 308
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.dll",
@@ -20336,7 +20963,7 @@
       "ToBuildDependencies": [
         125
       ],
-      "DebugActionIndex": 303
+      "DebugActionIndex": 309
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.pdb",
@@ -20351,7 +20978,7 @@
       "ToBuildDependencies": [
         125
       ],
-      "DebugActionIndex": 304
+      "DebugActionIndex": 310
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.Performance.Profile-Analyzer.Editor.dll",
@@ -20366,7 +20993,7 @@
       "ToBuildDependencies": [
         132
       ],
-      "DebugActionIndex": 305
+      "DebugActionIndex": 311
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.Performance.Profile-Analyzer.Editor.pdb",
@@ -20381,7 +21008,7 @@
       "ToBuildDependencies": [
         132
       ],
-      "DebugActionIndex": 306
+      "DebugActionIndex": 312
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll",
@@ -20396,7 +21023,7 @@
       "ToBuildDependencies": [
         138
       ],
-      "DebugActionIndex": 307
+      "DebugActionIndex": 313
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.PlasticSCM.Editor.pdb",
@@ -20411,7 +21038,7 @@
       "ToBuildDependencies": [
         138
       ],
-      "DebugActionIndex": 308
+      "DebugActionIndex": 314
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.Settings.Editor.dll",
@@ -20426,7 +21053,7 @@
       "ToBuildDependencies": [
         150
       ],
-      "DebugActionIndex": 309
+      "DebugActionIndex": 315
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.Settings.Editor.pdb",
@@ -20441,7 +21068,7 @@
       "ToBuildDependencies": [
         150
       ],
-      "DebugActionIndex": 310
+      "DebugActionIndex": 316
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll",
@@ -20456,7 +21083,7 @@
       "ToBuildDependencies": [
         156
       ],
-      "DebugActionIndex": 311
+      "DebugActionIndex": 317
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.pdb",
@@ -20471,7 +21098,7 @@
       "ToBuildDependencies": [
         156
       ],
-      "DebugActionIndex": 312
+      "DebugActionIndex": 318
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll",
@@ -20486,7 +21113,7 @@
       "ToBuildDependencies": [
         162
       ],
-      "DebugActionIndex": 313
+      "DebugActionIndex": 319
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.pdb",
@@ -20501,7 +21128,7 @@
       "ToBuildDependencies": [
         162
       ],
-      "DebugActionIndex": 314
+      "DebugActionIndex": 320
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.TextMeshPro.dll",
@@ -20516,7 +21143,7 @@
       "ToBuildDependencies": [
         168
       ],
-      "DebugActionIndex": 315
+      "DebugActionIndex": 321
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.TextMeshPro.pdb",
@@ -20531,7 +21158,7 @@
       "ToBuildDependencies": [
         168
       ],
-      "DebugActionIndex": 316
+      "DebugActionIndex": 322
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.Timeline.dll",
@@ -20546,7 +21173,7 @@
       "ToBuildDependencies": [
         174
       ],
-      "DebugActionIndex": 317
+      "DebugActionIndex": 323
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.Timeline.pdb",
@@ -20561,7 +21188,7 @@
       "ToBuildDependencies": [
         174
       ],
-      "DebugActionIndex": 318
+      "DebugActionIndex": 324
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.VisualScripting.Core.dll",
@@ -20576,7 +21203,7 @@
       "ToBuildDependencies": [
         186
       ],
-      "DebugActionIndex": 319
+      "DebugActionIndex": 325
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.VisualScripting.Core.pdb",
@@ -20591,7 +21218,7 @@
       "ToBuildDependencies": [
         186
       ],
-      "DebugActionIndex": 320
+      "DebugActionIndex": 326
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll",
@@ -20606,7 +21233,7 @@
       "ToBuildDependencies": [
         198
       ],
-      "DebugActionIndex": 321
+      "DebugActionIndex": 327
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.CollabProxy.Editor.pdb",
@@ -20621,7 +21248,7 @@
       "ToBuildDependencies": [
         198
       ],
-      "DebugActionIndex": 322
+      "DebugActionIndex": 328
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.dll",
@@ -20636,7 +21263,7 @@
       "ToBuildDependencies": [
         205
       ],
-      "DebugActionIndex": 323
+      "DebugActionIndex": 329
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.pdb",
@@ -20651,7 +21278,7 @@
       "ToBuildDependencies": [
         205
       ],
-      "DebugActionIndex": 324
+      "DebugActionIndex": 330
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll",
@@ -20666,7 +21293,7 @@
       "ToBuildDependencies": [
         214
       ],
-      "DebugActionIndex": 325
+      "DebugActionIndex": 331
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.TextMeshPro.Editor.pdb",
@@ -20681,7 +21308,7 @@
       "ToBuildDependencies": [
         214
       ],
-      "DebugActionIndex": 326
+      "DebugActionIndex": 332
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.Timeline.Editor.dll",
@@ -20696,7 +21323,7 @@
       "ToBuildDependencies": [
         221
       ],
-      "DebugActionIndex": 327
+      "DebugActionIndex": 333
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.Timeline.Editor.pdb",
@@ -20711,7 +21338,7 @@
       "ToBuildDependencies": [
         221
       ],
-      "DebugActionIndex": 328
+      "DebugActionIndex": 334
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.dll",
@@ -20726,7 +21353,7 @@
       "ToBuildDependencies": [
         228
       ],
-      "DebugActionIndex": 329
+      "DebugActionIndex": 335
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.pdb",
@@ -20741,7 +21368,7 @@
       "ToBuildDependencies": [
         228
       ],
-      "DebugActionIndex": 330
+      "DebugActionIndex": 336
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll",
@@ -20756,7 +21383,7 @@
       "ToBuildDependencies": [
         235
       ],
-      "DebugActionIndex": 331
+      "DebugActionIndex": 337
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.VisualScripting.Flow.pdb",
@@ -20771,7 +21398,7 @@
       "ToBuildDependencies": [
         235
       ],
-      "DebugActionIndex": 332
+      "DebugActionIndex": 338
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll",
@@ -20786,7 +21413,7 @@
       "ToBuildDependencies": [
         241
       ],
-      "DebugActionIndex": 333
+      "DebugActionIndex": 339
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.pdb",
@@ -20801,7 +21428,7 @@
       "ToBuildDependencies": [
         241
       ],
-      "DebugActionIndex": 334
+      "DebugActionIndex": 340
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.VisualScripting.State.dll",
@@ -20816,7 +21443,7 @@
       "ToBuildDependencies": [
         249
       ],
-      "DebugActionIndex": 335
+      "DebugActionIndex": 341
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.VisualScripting.State.pdb",
@@ -20831,7 +21458,7 @@
       "ToBuildDependencies": [
         249
       ],
-      "DebugActionIndex": 336
+      "DebugActionIndex": 342
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.VisualScripting.SettingsProvider.Editor.dll",
@@ -20846,7 +21473,7 @@
       "ToBuildDependencies": [
         255
       ],
-      "DebugActionIndex": 337
+      "DebugActionIndex": 343
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.VisualScripting.SettingsProvider.Editor.pdb",
@@ -20861,7 +21488,7 @@
       "ToBuildDependencies": [
         255
       ],
-      "DebugActionIndex": 338
+      "DebugActionIndex": 344
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.VisualScripting.State.Editor.dll",
@@ -20876,7 +21503,7 @@
       "ToBuildDependencies": [
         263
       ],
-      "DebugActionIndex": 339
+      "DebugActionIndex": 345
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.VisualScripting.State.Editor.pdb",
@@ -20891,7 +21518,7 @@
       "ToBuildDependencies": [
         263
       ],
-      "DebugActionIndex": 340
+      "DebugActionIndex": 346
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.VisualScripting.Shared.Editor.dll",
@@ -20906,7 +21533,7 @@
       "ToBuildDependencies": [
         269
       ],
-      "DebugActionIndex": 341
+      "DebugActionIndex": 347
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.VisualScripting.Shared.Editor.pdb",
@@ -20921,7 +21548,7 @@
       "ToBuildDependencies": [
         269
       ],
-      "DebugActionIndex": 342
+      "DebugActionIndex": 348
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Assembly-CSharp.dll",
@@ -20936,7 +21563,7 @@
       "ToBuildDependencies": [
         276
       ],
-      "DebugActionIndex": 343
+      "DebugActionIndex": 349
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Assembly-CSharp.pdb",
@@ -20951,7 +21578,37 @@
       "ToBuildDependencies": [
         276
       ],
-      "DebugActionIndex": 344
+      "DebugActionIndex": 350
+    },
+    {
+      "Annotation": "CopyFiles Library/ScriptAssemblies/Assembly-CSharp-Editor.dll",
+      "DisplayName": "Copying Assembly-CSharp-Editor.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.dll"
+      ],
+      "Outputs": [
+        "Library/ScriptAssemblies/Assembly-CSharp-Editor.dll"
+      ],
+      "ToBuildDependencies": [
+        292
+      ],
+      "DebugActionIndex": 351
+    },
+    {
+      "Annotation": "CopyFiles Library/ScriptAssemblies/Assembly-CSharp-Editor.pdb",
+      "DisplayName": "Copying Assembly-CSharp-Editor.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.pdb"
+      ],
+      "Outputs": [
+        "Library/ScriptAssemblies/Assembly-CSharp-Editor.pdb"
+      ],
+      "ToBuildDependencies": [
+        292
+      ],
+      "DebugActionIndex": 352
     },
     {
       "Annotation": "BuildPlayerDataGenerator Library/BuildPlayerData/Editor/TypeDb-All.json",
@@ -20976,18 +21633,18 @@
         "Library/BuildPlayerData/Editor/TypeDb-All.json"
       ],
       "ToBuildDependencies": [
-        289,
-        299,
-        315,
-        317,
-        319,
-        331,
-        335,
-        343
+        295,
+        305,
+        321,
+        323,
+        325,
+        337,
+        341,
+        349
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 345
+      "DebugActionIndex": 353
     },
     {
       "Annotation": "ScriptAssembliesAndTypeDB",
@@ -20996,10 +21653,10 @@
       "Outputs": [],
       "ToBuildDependencies": [
         6,
-        345
+        353
       ],
       "OverwriteOutputs": false,
-      "DebugActionIndex": 346
+      "DebugActionIndex": 354
     }
   ],
   "FileSignatures": [
@@ -21234,7 +21891,7 @@
         "NamedNodes": {
           "all_tundra_nodes": 0,
           "ScriptAssemblies": 6,
-          "ScriptAssembliesAndTypeDB": 346
+          "ScriptAssembliesAndTypeDB": 354
         }
 ,  "DefaultNodes": [
     0

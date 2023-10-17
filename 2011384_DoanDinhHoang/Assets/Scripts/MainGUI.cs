@@ -11,4 +11,11 @@ public class MainGUI : MonoBehaviour
         Time.timeScale = 1;
 
     }
+    public void Menu()
+    {
+
+        SceneManager.LoadScene(0);
+        Time.timeScale = 1;
+
+    }
 }

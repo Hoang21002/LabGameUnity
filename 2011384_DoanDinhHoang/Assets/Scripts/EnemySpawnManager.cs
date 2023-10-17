@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -6,7 +6,7 @@ public class EnemySpawnManager : MonoBehaviour
 {
     public GameObject _enemyToSpawn;
 
-    public float _spawnDelay = 1.0f;
+    public float _spawnDelay = 4.0f;
 
     float _nextSpawnTime = -1.0f;
 
@@ -14,7 +14,7 @@ public class EnemySpawnManager : MonoBehaviour
     {
         if (Time.time >= _nextSpawnTime)
         {
-            Vector3 edgeOfScreen = new Vector3(1.0f, 0.5f, 8.0f);
+            Vector3 edgeOfScreen = new Vector3(6.0f, 4.5f, 4.0f);
             Vector3 placeToSpawn = Camera.main.ViewportToWorldPoint(edgeOfScreen);
             Quaternion directionToFace = Quaternion.identity;
             Instantiate(_enemyToSpawn, placeToSpawn,directionToFace);
@@ -23,6 +23,3 @@ public class EnemySpawnManager : MonoBehaviour
     }
 
 }
-
-
-
